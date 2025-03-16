@@ -1,4 +1,4 @@
-<?php
+@reboot /usr/bin/php /home/user/bot/crone.php > /dev/null 2>&1<?php
 
 include 'Telegram.php';
 include 'functions.php';
